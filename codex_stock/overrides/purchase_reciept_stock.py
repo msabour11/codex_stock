@@ -60,6 +60,7 @@ def on_submit_purchase_receipt(doc, method):
         "دبوس صدر ديك": 2,
         "جناح ديك": 2,
         "رقبة ديك": 1,
+        "قطع لحم ديك":1
     }
 
     # Loop through each item in the Purchase Receipt
