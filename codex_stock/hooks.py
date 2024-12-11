@@ -145,6 +145,14 @@ app_license = "mit"
 # 	}
 # }
 
+
+doc_events = {
+    "Purchase Receipt": {
+        "on_submit": "codex_stock.overrides.purchase_reciept_stock.on_submit_purchase_receipt"
+    }
+}
+
+
 # Scheduled Tasks
 # ---------------
 
@@ -241,4 +249,3 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-
